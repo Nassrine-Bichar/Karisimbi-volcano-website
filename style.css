@@ -1,0 +1,24 @@
+.img-container {
+    position: relative;
+    max-width: 100%;
+  }
+  
+  .img-container img {
+    display: block;
+    max-width: 100%;
+    height: auto;
+  }
+  
+  .text-container {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    max-width: 90%;
+    text-align: center;
+  }
+  
+  .text-container p {
+    font-size: 1.5em;
+  }
+  
